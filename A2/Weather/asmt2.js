@@ -4,6 +4,7 @@ $(document).ready(function () {
     $("#goButton").on("click", function () {
         //call both the downloadWeather and downloadForecast
         //get the values of the input field first
+        $('#weather').show();
         var lat = $("#lat").val();
         var lon = $("#lon").val();
         var url_w = "http://api.apixu.com/v1/forecast.json?q=" + lat + "," + lon + "&key=4ef42f6c9f6444b0974200521191403"; //weather

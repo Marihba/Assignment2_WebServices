@@ -1,0 +1,15 @@
+body {
+ padding: 20px;
+}
+
+#form {
+  padding-bottom: 2rem;
+}
+
+#weather {
+  display: none;
+  border: 0.2rem solid black;
+  border-radius: 0.5rem;
+  background: lightblue;
+  padding-bottom: 1rem;
+}
